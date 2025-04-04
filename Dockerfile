@@ -182,7 +182,7 @@ RUN python -c "import os; print(os.environ.get('WHISPER_CACHE_DIR')); import whi
 COPY . .
 
 # Expose the port the app runs on
-EXPOSE 8080
+EXPOSE 8090
 
 # Set environment variables
 ENV PYTHONUNBUFFERED=1
